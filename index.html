@@ -178,7 +178,7 @@
         </div>
       </div>
     </section>
-    <section class="container-fluid about">
+    <section class="">
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10 row">
@@ -240,5 +240,49 @@
         <div class="col-md-1"></div>
       </div>
     </section>
+    <footer>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 text-center">
+          <h6 class="h2 fw-bold">Contact Me</h6>
+          <p class="info-3">
+            If you have an application you are interested in developing, a feature
+            that you need built or a project that needs coding. I’d love to help
+            with it
+          </p>
+          <form action="https://formspree.io/f/mdobbyrd" method="POST">
+            <label class="label" for="name" hidden> Name</label>
+            <input
+              class="form-control form-control-lg" id="name"
+              type="text"
+              maxlength="30"
+              placeholder="Full Name"
+              required
+            />
+            <label class="label" for="email" hidden>Email</label>
+            <input
+              class="form-control form-control-lg"
+              id="email"
+              type="email"
+              name="email"
+              placeholder="yourname@example.com"
+              required
+            />
+            <label class="label" for="need-help" hidden>Need help?</label>
+            <textarea
+              class="form-control form-control-lg"
+              id="need-help"
+              name="message"
+              maxlength="500"
+              placeholder="Write your message here"
+            ></textarea>
+    
+            <!-- your other form fields go here -->
+            <button class="btn btn-outline-primary mt-5" type="submit">Get In Touch</button>
+          </form>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </footer>
   </body>
 </html>
