@@ -9,6 +9,10 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
     <link rel="stylesheet" href="style.css" />
 
     <title>Portfolio</title>
@@ -24,19 +28,26 @@
     </nav>
 
     <section
-      class="d-flex align-items-start flex-column bg-image mt-5"
+      class="container-fluid d-flex justify-content-center flex-column bg-image mt-5"
       style="background-image: url('images/Headerbg@2x.png'); height: 100vh"
     >
-      <h1>
-        I'm Thokozani<br />
-        Glad to meet you!
-      </h1>
-      <p class="w-50">
-        I’m a software developer! I can help you build a product , feature or
-        website Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don’t hestiate to contact me.
-      </p>
-      <a class="">LETS CONNECT</a>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <h1>
+          I'm Thokozani<br />
+          Glad to meet you!
+        </h1>
+        <p class="w-50">
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact me.
+        </p>
+        <a class="">LETS CONNECT</a>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+     
     </section>
 
     <section
@@ -165,6 +176,68 @@
             />
           </div>
         </div>
+      </div>
+    </section>
+    <section class="container-fluid about">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10 row">
+          <div class="col-md-6">
+            <h3 class="h2 fw-bold">
+              About <br> Myself
+            </h3>
+            <p class="about-text">
+              Hello I’m a software developer! I can help you build a product ,
+              feature or website Look through some of my work and experience! If
+              you like what you see and have a project you need coded, don’t
+              hestiate to contact me.
+            </p>
+            <a href="#connect"  class="navbar-brand primary">LET'S CONNECT</a>
+            <div class="media">
+              <ul class="list-inline d-flex gap-3">
+                <li><i class="fa fa-facebook fa-2x"></i></li>
+                <li><i class="fa fa-linkedin fa-2x"></i></li>
+                <li><i class="fa fa-medium fa-2x"></i></li>
+                <li><i class="fa fa-github fa-2x"></i></li>
+                <li><i class="fa fa-angellist fa-2x"></i></li>
+              </ul>
+              <button type="button" class="btn btn-outline-primary mt-5">Get My Resume</button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="navbar">
+              <h4 class="">Languages </h4> <i class="fa fa-angle-down"></i>
+            </div>
+          <ul class="list-unstyled d-flex gap-4">
+            <li class=" d-flex flex-column align-items-center">
+              <img alt="" src="images/Ellipse1.png" /><span
+                >Java</span
+              >
+            </li>
+            <li class=" d-flex flex-column align-items-center">
+              <img alt="" src="images/Ellipse2.png" /><span
+                class="HTML"
+                >HTML</span
+              >
+            </li>
+            <li  class="d-flex flex-column align-items-center">
+              <img alt="" src="images/Ellipse3.png" /><span
+                class="HTML"
+                >CSS</span
+              >
+            </li>
+          </ul>
+          <div class="navbar">
+            <h4 class="">Framewoks </h4> <i class="fa fa-angle-down"></i>
+          </div>          
+          <hr />
+          <div class="navbar">
+            <h4 class="">Skills </h4> <i class="fa fa-angle-down"></i>
+          </div>
+          <hr />
+          </div>
+        </div>
+        <div class="col-md-1"></div>
       </div>
     </section>
   </body>
